@@ -1,0 +1,10 @@
+{
+  "name": "ExamPrep Pro",
+  "short_name": "ExamPrep",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#315efb",
+  "description": "College exam preparation app with questions, notes and videos.",
+  "icons": []
+}
