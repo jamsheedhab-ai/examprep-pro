@@ -1,0 +1,8 @@
+{
+  "name": "examprep-pro-backend",
+  "version": "1.0.0",
+  "description": "ExamPrep Pro backend with authentication, courses, subjects and study material APIs",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
