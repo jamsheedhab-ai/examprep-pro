@@ -1,0 +1,13 @@
+services:
+  examprep:
+    build: .
+    container_name: examprep-pro
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    volumes:
+      - examprep_data:/data
+volumes:
+  examprep_data:
